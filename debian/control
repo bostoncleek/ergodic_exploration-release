@@ -1,0 +1,12 @@
+Source: ros-noetic-ergodic-exploration
+Section: misc
+Priority: optional
+Maintainer: bostoncleek <bostoncleek2020@u.northwestern.edu>
+Build-Depends: debhelper (>= 9.0.0), libarmadillo-dev, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-rosunit, ros-noetic-sensor-msgs, ros-noetic-tf2, ros-noetic-tf2-ros, ros-noetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ergodic-exploration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libarmadillo-dev, ros-noetic-map-server, ros-noetic-roscpp, ros-noetic-rviz, ros-noetic-tf2-ros
+Description: Robot agnostic information theoretic exploration strategy
